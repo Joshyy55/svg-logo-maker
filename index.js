@@ -1,18 +1,51 @@
+const CLI = require("./lib/cli")
 const fs = require(`fs`)
 const inquirer = require(`inquirer`);
 
-var firstName = "Alex"
-var lastName = "Gonzalez"
-var age = 26
+const myCLI = new CLI()
+myCLI.run();
 
-console.log("My name is " + firstName + " " + lastName + " and I'm " + age + " years old")
-console.log(`My name is ${firstName} ${lastName} and I'm ${age} years old`)
-class title {
-    constructor(name){
-        this.name = name
-    }
-}
-console.log(title)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var firstName = "Alex"
+// var lastName = "Gonzalez"
+// var age = 26
+
+// console.log("My name is " + firstName + " " + lastName + " and I'm " + age + " years old")
+// console.log(`My name is ${firstName} ${lastName} and I'm ${age} years old`)
+// class title {
+//     constructor(name){
+//         this.name = name
+//     }
+// }
+// console.log(title)
 // logo generator
 // step 1: a promopt that asks you what your logo should look
     //prompted for text - up to 3 characters
